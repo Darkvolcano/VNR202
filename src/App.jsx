@@ -6,6 +6,8 @@ import Part2 from "./components/Part2";
 import Part3 from "./components/Part3";
 import Part4 from "./components/Part4";
 import Footer from "./components/Footer";
+import JourneyMap from "./components/JourneyMap";
+import LegacyDocuments from "./components/LegacyDocuments";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Part4 />
         {/* (Bạn có thể thêm các phần "Tư tưởng", "Bản đồ", "Di sản" ở đây 
              với các bố cục khác nữa) */}
+        <JourneyMap />
+        <LegacyDocuments />
       </main>
       <Footer />
     </div>
