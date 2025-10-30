@@ -43,6 +43,7 @@ const Part4 = () => {
             <img
               src="https://hatinh.dcs.vn/tinhuy/static/site/cmstinhuy/uploads/images_download/detail/23/155/9.2014.74.1.jpg"
               alt="Xô viết Nghệ - Tĩnh"
+              style={{ width: "-webkit-fill-available" }}
             />
             <p className="image-caption">
               Cao trào Xô viết Nghệ - Tĩnh (1930-1931), cuộc tổng diễn tập đầu
@@ -63,6 +64,7 @@ const Part4 = () => {
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT80OgKcgRC0pSLxEP9TKGnRGssu9fEeV6X6A&s"
               alt="Nguyễn Ái Quốc tại Pác Bó"
+              style={{ width: "-webkit-fill-available" }}
             />
             <p className="image-caption">
               Nguyễn Ái Quốc tại hang Pác Bó, Cao Bằng năm 1941.
