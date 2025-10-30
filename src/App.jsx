@@ -1,26 +1,4 @@
-// import "./App.css";
-// import Header from "./Header";
-// import Footer from "./components/Footer";
-// import ScrollytellingTimeline from "./ScrollytellingTimeline";
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <Header />
-//       <main>
-//         <ScrollytellingTimeline />
-//       </main>
-//       <Footer />
-//     </div>
-//   );
-// }
-
-// export default App;
-
-import React from "react";
-import "./App.css"; // File CSS đã nâng cấp LỚN
-
-// Import các component
+import "./App.css";
 import Navigation from "./components/Navigation";
 import HeroSection from "./components/HeroSection";
 import Part1 from "./components/Part1";

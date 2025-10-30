@@ -21,7 +21,7 @@ const Part4 = () => {
               Nam ra đời, thông qua Chánh cương vắn tắt, Sách lược vắn tắt.
             </p>
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Hoi_nghi_thanh_lap_Dang_Cong_san_Viet_Nam_1930.jpg"
+              src="https://images.hcmcpv.org.vn//Uploads/Image/0601202019202092/06-01-2020DCD_01.jpg"
               alt="Hội nghị thành lập Đảng"
             />
             <p className="image-caption">
@@ -41,7 +41,7 @@ const Part4 = () => {
               Quốc bị chính quyền Anh bắt tại Hồng Kông.
             </p>
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Xo_viet_Nghe_Tinh_1930.jpg/1024px-Xo_viet_Nghe_Tinh_1930.jpg"
+              src="https://hatinh.dcs.vn/tinhuy/static/site/cmstinhuy/uploads/images_download/detail/23/155/9.2014.74.1.jpg"
               alt="Xô viết Nghệ - Tĩnh"
             />
             <p className="image-caption">
@@ -61,7 +61,7 @@ const Part4 = () => {
               giải phóng dân tộc lên hàng đầu.
             </p>
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Ho_Chi_Minh_at_Pac_Bo_Cave_in_1941.jpg/1024px-Ho_Chi_Minh_at_Pac_Bo_Cave_in_1941.jpg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT80OgKcgRC0pSLxEP9TKGnRGssu9fEeV6X6A&s"
               alt="Nguyễn Ái Quốc tại Pác Bó"
             />
             <p className="image-caption">
@@ -80,7 +80,7 @@ const Part4 = () => {
               thân của QĐND Việt Nam, do đồng chí Võ Nguyên Giáp chỉ huy.
             </p>
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Thanh_lap_Doi_Viet_Nam_Tuyen_truyen_Giai_phong_quan.jpg/1024px-Thanh_lap_Doi_Viet_Nam_Tuyen_truyen_Giai_phong_quan.jpg"
+              src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Vo_Nguyen_Giap%2C_Vietminh_forces%2C_1944.jpg"
               alt="Thành lập Đội VNTTGPQ"
             />
             <p className="image-caption">
@@ -100,7 +100,7 @@ const Part4 = () => {
               Trường Sơn cũng phải kiên quyết giành cho được độc lập!"
             </p>
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Hanoi_uprising_August_1945.jpg/1024px-Hanoi_uprising_August_1945.jpg"
+              src="https://cdn.nhandan.vn/images/d233c8299c7755bbf317d96e7a85fcf7cd11fc6dd996db315de926e2b611ec964d5897d13fe43ec54caed3d461f21503551681cece9570f775c301aa5d72b0a267c27e78243596e729d26d508c0ff6cc63a899dc0d598a8828a44264337440e8/1345166220000_6968a945a3d6110a73b0dcf57b3b1efc.jpg"
               alt="Cách mạng Tháng Tám"
             />
             <p className="image-caption">
@@ -120,7 +120,7 @@ const Part4 = () => {
               hòa.
             </p>
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/e/ed/President_Ho_Chi_Minh_reads_the_Proclamation_of_Independence_at_Ba_Dinh_Square_on_September_2%2C_1945.jpg"
+              src="https://phamngulao.hungyen.gov.vn//updload_ubt/userfiles/files/Sang-ngay-2-9-lich-su.jpg"
               alt="Tuyên ngôn Độc lập"
             />
             <p className="image-caption">
