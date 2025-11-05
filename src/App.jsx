@@ -12,15 +12,13 @@ import LegacyDocuments from "./components/LegacyDocuments";
 function App() {
   return (
     <div className="App">
-      <Navigation />
+      {/* <Navigation /> */}
       <HeroSection />
       <main>
         <Part1 />
         <Part2 />
         <Part3 />
         <Part4 />
-        {/* (Bạn có thể thêm các phần "Tư tưởng", "Bản đồ", "Di sản" ở đây 
-             với các bố cục khác nữa) */}
         <JourneyMap />
         <LegacyDocuments />
       </main>
