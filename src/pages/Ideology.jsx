@@ -1,4 +1,4 @@
-const TuTuong = () => {
+const Ideology = () => {
   return (
     <div style={{ padding: "100px 20px", minHeight: "80vh" }}>
       <h1>Trang Tư Tưởng</h1>
@@ -7,4 +7,4 @@ const TuTuong = () => {
   );
 };
 
-export default TuTuong;
+export default Ideology;

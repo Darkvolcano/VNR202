@@ -25,7 +25,7 @@ const Navigation = () => {
           </li>
           <li>
             <NavLink
-              to="/tu-tuong"
+              to="/ideology"
               className={({ isActive }) => (isActive ? "active" : "")}
             >
               Tư Tưởng
@@ -33,7 +33,7 @@ const Navigation = () => {
           </li>
           <li>
             <NavLink
-              to="/thong-tin"
+              to="/information"
               className={({ isActive }) => (isActive ? "active" : "")}
             >
               Thông tin
