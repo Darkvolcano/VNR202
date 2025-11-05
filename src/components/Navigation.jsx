@@ -1,11 +1,45 @@
+import { NavLink } from "react-router-dom";
+import "./Navigation.css";
+
 const Navigation = () => {
   return (
-    <header className="navigation-bar">
+    <header className="main-header">
       <nav>
-        <a href="#phan1">Phần 1: Nung đúc (1890-1911)</a>
-        <a href="#phan2">Phần 2: Tìm đường (1911-1920)</a>
-        <a href="#phan3">Phần 3: Gieo mầm (1921-1930)</a>
-        <a href="#phan4">Phần 4: Lãnh đạo (1930-1945)</a>
+        <ul>
+          <li>
+            <NavLink
+              to="/"
+              className={({ isActive }) => (isActive ? "active" : "")}
+              end
+            >
+              Trang chủ
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/ai-chat"
+              className={({ isActive }) => (isActive ? "active" : "")}
+            >
+              AI Chat
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/tu-tuong"
+              className={({ isActive }) => (isActive ? "active" : "")}
+            >
+              Tư Tưởng
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/thong-tin"
+              className={({ isActive }) => (isActive ? "active" : "")}
+            >
+              Thông tin
+            </NavLink>
+          </li>
+        </ul>
       </nav>
     </header>
   );
