@@ -1,27 +1,28 @@
 import "./App.css";
 import Navigation from "./components/Navigation";
-import HeroSection from "./components/HeroSection";
-import Part1 from "./components/Part1";
-import Part2 from "./components/Part2";
-import Part3 from "./components/Part3";
-import Part4 from "./components/Part4";
 import Footer from "./components/Footer";
-import JourneyMap from "./components/JourneyMap";
-import LegacyDocuments from "./components/LegacyDocuments";
+import { Routes, Route } from "react-router-dom";
+
+import Home from "./pages/Home";
+import AIChat from "./pages/AIChat";
+import TuTuong from "./pages/TuTuong";
+import Information from "./pages/Information";
 
 function App() {
   return (
     <div className="App">
-      {/* <Navigation /> */}
-      <HeroSection />
+      <Navigation />
+
       <main>
-        <Part1 />
-        <Part2 />
-        <Part3 />
-        <Part4 />
-        <JourneyMap />
-        <LegacyDocuments />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/ai-chat" element={<AIChat />} />
+          <Route path="/tu-tuong" element={<TuTuong />} />
+          <Route path="/thong-tin" element={<Information />} />
+        </Routes>
       </main>
+
+      {/* Footer cũng sẽ luôn hiển thị */}
       <Footer />
     </div>
   );
