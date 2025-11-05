@@ -5,7 +5,7 @@ import { Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
 import AIChat from "./pages/AIChat";
-import TuTuong from "./pages/TuTuong";
+import Ideology from "./pages/Ideology";
 import Information from "./pages/Information";
 
 function App() {
@@ -17,12 +17,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/ai-chat" element={<AIChat />} />
-          <Route path="/tu-tuong" element={<TuTuong />} />
-          <Route path="/thong-tin" element={<Information />} />
+          <Route path="/ideology" element={<Ideology />} />
+          <Route path="/information" element={<Information />} />
         </Routes>
       </main>
 
-      {/* Footer cũng sẽ luôn hiển thị */}
       <Footer />
     </div>
   );
