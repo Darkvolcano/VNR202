@@ -52,7 +52,7 @@ const AIChat = () => {
     setIsLoading(true);
 
     try {
-      const res = await fetch("http://47.128.217.142:8090/vnr/v2", {
+      const res = await fetch("https://hlui.duckdns.org/vnr/v2", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question: input }),
