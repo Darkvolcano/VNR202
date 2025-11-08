@@ -5,31 +5,37 @@ const teamMembers = [
     id: 1,
     studentId: "SE183178",
     name: "Tô Triều Vỹ",
+    role: "Thuyết trình",
   },
   {
     id: 2,
     studentId: "SE183221",
     name: "Đào Bảo Kha",
+    role: "Thuyết trình",
   },
   {
     id: 3,
     studentId: "SE183245",
     name: "Phạm Chu Chí Khang",
+    role: "Làm web",
   },
   {
     id: 4,
     studentId: "SE183322",
     name: "Võ Minh Trí",
+    role: "Làm web",
   },
   {
     id: 5,
     studentId: "SE183867",
     name: "Phạm Cẩm Hoàng",
+    role: "Làm BE AI",
   },
   {
     id: 6,
     studentId: "SS180587",
     name: "Trần Thuận Nguyên",
+    role: "Soạn nội dung",
   },
 ];
 
@@ -57,6 +63,7 @@ const Information = () => {
               <tr>
                 <th>MSSV</th>
                 <th>Họ Tên</th>
+                <th>Vai trò</th>
               </tr>
             </thead>
             <tbody>
@@ -64,6 +71,7 @@ const Information = () => {
                 <tr key={member.id}>
                   <td>{member.studentId}</td>
                   <td>{member.name}</td>
+                  <td>{member.role}</td>
                 </tr>
               ))}
             </tbody>
