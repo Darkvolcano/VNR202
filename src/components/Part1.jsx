@@ -48,7 +48,7 @@ const Part1 = () => {
           </li>
           <div className="part1-image-container">
             <img
-              src="https://bna.1cdn.vn/2024/05/31/chan-dung-ong-nguyen-sinh-sac-va-ba-hoang-thi-loan.jpg"
+              src="https://i.ibb.co/JRqQgfjR/Screenshot-2025-11-14-211537.png"
               alt="Bà Hoàng Thị Loan và Cụ Nguyễn Sinh Sắc"
               style={{ width: "60%" }}
             />
