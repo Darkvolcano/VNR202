@@ -5,7 +5,7 @@ const teamMembers = [
     id: 1,
     studentId: "SE183178",
     name: "Tô Triều Vỹ",
-    role: "Thuyết trình + làm WEB",
+    role: "Làm WEB",
   },
   {
     id: 2,
@@ -45,7 +45,7 @@ const aiTools = [
     name: "Google Gemini",
     description: "Sử dụng để hỗ trợ tư duy thiết kế (như chọn phông màu), gợi ý design.",
     promptExample: `
-      "Bạn là một trợ lý học tập chuyên về môn %s.
+      "Bạn là một trợ lý học tập chuyên về môn VNR202 - Lịch sử Đảng Cộng sản Việt Nam.
             
             TÀI LIỆU THAM KHẢO:
             Khi Nguyễn Sinh Cung cất tiếng khóc chào đời vào năm 1890 tại làng Chùa, Nghệ An, đất nước đang chìm trong đêm dài nô lệ. Triều đình nhà Nguyễn đã đầu hàng, thực dân Pháp áp đặt gông cùm cai trị. Các cuộc khởi nghĩa, tiêu biểu là phong trào Cần Vương, dù sôi sục và đầy khí phách, nhưng lần lượt thất bại trước hỏa lực và chính sách cai trị tàn bạo của kẻ thù.
